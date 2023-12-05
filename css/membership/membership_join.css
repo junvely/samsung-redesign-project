@@ -1,0 +1,300 @@
+@charset "utf-8";
+@import url(membership.css);
+
+/* container */
+
+.container{
+    width: 100%;
+    height: auto;
+}
+.container .inner_container{
+    width: 100%;
+    height: auto;
+}
+
+/* 멤버십 메인배너 */
+.container .inner_container .membership_banner{
+    width: 100%;
+    height: 650px;
+    background: url(../../img/membership_banner1.png) no-repeat 50% /cover;
+    position: relative;
+    font-size: 16px;
+    transition: all .3s;
+}
+.container .inner_container .membership_banner .banner_con{
+    width: 100%;
+    max-width: 1400px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.container .inner_container .membership_banner .banner_con>h1{
+    font-size: 5em;
+    font-weight: 800;
+    text-align: left;
+}
+.container .inner_container .membership_banner .banner_con>p{
+    font-size: 1.5em;
+    font-weight: 400;
+    padding: 50px 10px;
+    text-decoration: underline;
+}
+
+/* 삼성멤버십 프리미엄 혜택 */
+.container .inner_container .membership_benefit{
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    transition: all .3s;
+}
+.container .inner_container .membership_benefit .benefit_con{
+    width: 100%;
+    max-width: 1400px;
+    height: auto;
+    margin: 0 auto;
+    /* border: 1px solid; */
+}
+.container .inner_container .membership_benefit .benefit_con .benefit_title{
+    width: 100%;
+    height: auto;
+    margin: 5em 0 2em;
+    display: flex;
+}
+.container .inner_container .membership_benefit .benefit_con .benefit_title>h2{
+    width: 95%;
+    font-size: 2.3em;
+    line-height: 2.3em;
+    font-weight: 900;
+    font-family: 'nanumsquare' ,sans-serif;
+    position: relative;
+    padding-left: 1.6em;
+    /* text-align: center; */
+    /* border: 1px solid; */
+}
+.container .inner_container .membership_benefit .benefit_con .benefit_title>h2::before{
+    content: '';
+    width: 1.3em;
+    height: 1.3em;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background: url(../../img/membership_mark.png) no-repeat 50% /cover;
+}
+.container .inner_container .membership_benefit .benefit_con .benefit_list{
+    width: 100%;
+    height: auto;
+    background-color: rgba(247, 247, 247, 0.863);
+    box-shadow: 0px 0px 10px 0px #ccc;
+    border-radius: 20px;
+    transition: all .3s;
+}
+.container .inner_container .membership_benefit .benefit_con .benefit_list>ul{
+    display: flex;
+    justify-content: space-between;
+}
+.container .inner_container .membership_benefit .benefit_con .benefit_list>ul>li{
+    width: 14.29%;
+    padding: 1%;
+    border-right: 1px solid #ccc;
+    transition: all .3s;
+}
+.container .inner_container .membership_benefit .benefit_con .benefit_list>ul>li:last-child{
+    border-right: none;
+}
+.container .inner_container .membership_benefit .benefit_con .benefit_list>ul>li:hover{
+    background-color: rgb(223, 233, 253);
+}
+.container .inner_container .membership_benefit .benefit_con .benefit_list>ul>li .list_img{
+    width: 60%;
+    margin: 10% auto 30%;
+}
+.container .inner_container .membership_benefit .benefit_con .benefit_list>ul>li .list_txt{
+    font-family: 'nanumsquare' ,sans-serif;
+    text-align: center;
+}
+.container .inner_container .membership_benefit .benefit_con .benefit_list>ul>li .list_txt>span{
+    font-size: 1.3em;
+    font-weight: 600;
+    color: rgb(13, 13, 121);
+}
+.container .inner_container .membership_benefit .benefit_con .benefit_list>ul>li .list_txt>p{
+    font-size: .9em;
+    color: rgb(109, 109, 109);
+    padding: 2em 0;
+}
+.container .inner_container .membership_benefit .benefit_con .benefit_list>ul>li .list_txt>a{
+    font-size: .9em;
+    text-decoration: underline;
+}
+
+/* 삼성멤버십 지정매장 */
+.container .inner_container .membership_store{
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    transition: all .3s;
+}
+.container .inner_container .membership_store .store_con{
+    width: 100%;
+    max-width: 1400px;
+    height: auto;
+    margin: 0 auto;
+    /* border: 1px solid; */
+}
+.container .inner_container .membership_store .store_con .store_title{
+    width: 100%;
+    height: auto;
+    margin: 5em 0 2em;
+    display: flex;
+}
+.container .inner_container .membership_store .store_con .store_title>h2{
+    width: 95%;
+    font-size: 2.3em;
+    line-height: 2.3em;
+    font-weight: 900;
+    font-family: 'nanumsquare' ,sans-serif;
+    position: relative;
+    padding-left: 1.6em;
+    /* text-align: center; */
+    /* border: 1px solid; */
+}
+.container .inner_container .membership_store .store_con .store_title>h2::before{
+    content: '';
+    width: 1.3em;
+    height: 1.3em;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background: url(../../img/membership_mark.png) no-repeat 50% /cover;
+}
+
+/* 표 */
+.container .inner_container .membership_store .store_con .store_table{
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgb(158, 158, 158)
+}
+.container .inner_container .membership_store .store_con .store_table>table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.container .inner_container .membership_store .store_con .store_table>table th,td{
+    text-align: center;
+    font-size: .9em;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+.container .inner_container .membership_store .store_con .store_table>table th{
+    background-color: rgb(97, 75, 192);
+    color: #fff;
+    font-weight: 500;
+    padding: 5px;
+}
+.container .inner_container .membership_store .store_con .store_table>table td{
+    padding: 10px;
+}
+.container .inner_container .membership_store .store_con .store_table>table th.left,td.left{
+    padding-left: 2.7em;
+    text-align: left;
+}
+.container .inner_container .membership_store .store_con .store_table>table td.left{
+    background-color: rgb(225, 237, 248);
+    padding-left: 3em;
+}
+.container .inner_container .membership_store .store_con .store_table tr:last-child td{
+    border-bottom: none;
+}
+.container .inner_container .membership_store .store_con .store_table thead th:last-child{
+    border-right: none;
+    border-left: 1px solid #ccc;
+}
+.container .inner_container .membership_store .store_con .store_table tr>td:last-child{
+    border-right: none;
+}
+
+/* 삼성멤버십 이용안내 */
+.container .inner_container .membership_advice{
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+}
+.container .inner_container .membership_advice .advice_con{
+    width: 100%;
+    max-width: 1400px;
+    height: auto;
+    margin: 2em auto 5em;
+    padding: 10px;
+}
+.container .inner_container .membership_advice .advice_con>ul>li{
+    list-style: disc;
+    list-style-position: inside;
+    padding: 5px 0;
+    color: rgb(53, 53, 53);
+    font-size: .9em;
+    line-height: 2em;
+}
+.container .inner_container .membership_advice .advice_con>ul>li>p{
+    padding-left: 1.5em;
+}
+
+
+/* 태블릿 */
+
+@media only screen and (max-width:990px) {
+    .sub_header .sub_header_con .nav .info_menu{
+        width: 50%;
+    }
+    .container .inner_container .membership_banner{
+        font-size: .9rem;
+    }
+    .container .inner_container .membership_banner .banner_con{
+        width: 90%;
+    }
+    .container .inner_container .membership_benefit{
+        width: 95%;
+        margin: 0 auto;
+        font-size: .9rem;
+    }
+    .container .inner_container .membership_benefit .benefit_con .benefit_list{
+        background-color: #fff;
+        border: none;
+        box-shadow: none;
+    }
+    .container .inner_container .membership_benefit .benefit_con .benefit_list>ul{
+        flex-wrap: wrap;
+    }
+    .container .inner_container .membership_benefit .benefit_con .benefit_list>ul>li{
+        width: 32%;
+        background-color: rgba(247, 247, 247, 0.863);
+        box-shadow: 0px 0px 10px 0px #ccc;
+        padding-bottom: 10%;
+        margin-bottom: 5%;
+    }
+    .container .inner_container .membership_store{
+        width: 95%;
+        margin: 0 auto;
+        font-size: .9rem;
+    }
+    .container .inner_container .membership_advice{
+        font-size: .9rem;
+    }
+}
+
+/* 모바일 */
+
+@media only screen and (max-width:767px) {
+    .container .inner_container .membership_banner{
+        font-size: .7rem;
+    }
+    .container .inner_container .membership_benefit .benefit_con .benefit_list>ul>li{
+        width: 48%;
+    }
+}

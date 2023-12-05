@@ -1,0 +1,83 @@
+
+/* sub_header */
+.sub_header{
+    width: 100%;
+    height: auto;
+    border-top: 1px solid rgb(226, 226, 226);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: rgb(0, 0, 0);
+    transition: all .3s;
+}
+.sub_header .sub_header_con{
+    width: 100%;
+    height: auto;    
+    background-color: rgba(0, 0, 0, 0.404);
+}
+.sub_header .sub_header_con .nav{
+    width: 100%;
+    max-width: 1300px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 16px;
+}
+.sub_header .sub_header_con .nav .info{
+    width: auto;
+    line-height: 60px;
+    font-weight: 500;
+    color: #fff;
+}
+.sub_header .sub_header_con .nav .info_menu{
+    width: 30%;
+    min-width: 200px;
+    height: auto;
+    transition: all .3s;
+}
+.sub_header .sub_header_con .nav .info_menu>ul{
+    display: flex;
+    justify-content: space-between;
+}
+.sub_header .sub_header_con .nav .info_menu>ul>li{
+    /* width: 12.5%; */
+    line-height: 60px;
+    font-weight: 300;
+}
+.sub_header .sub_header_con .nav .info_menu>ul>li>a{
+    color: rgba(255, 255, 255, 0.815);
+    transition: all .3s;
+}
+.sub_header .sub_header_con .nav .info_menu>ul>li>a:hover{
+    color: rgb(255, 255, 255);
+}
+
+
+/* 태블릿 */
+
+@media only screen and (max-width:990px) {
+    .sub_header .sub_header_con .nav{
+        width: 95%;
+        /* min-width: 200px; */
+        font-size: .9em;
+    }
+}
+
+/* 모바일 */
+
+@media only screen and (max-width:767px) {
+    @media only screen and (max-width:990px) {
+        .sub_header .sub_header_con .nav{
+            font-size: .8em;
+        }
+    }
+}
+
+@media only screen and (max-width:450px) {
+    .sub_header .sub_header_con .nav .info_menu{
+        display: none;
+    }
+}

@@ -1,0 +1,198 @@
+@charset "utf-8";
+
+input{
+    border: none;
+    border-radius: 5px;
+}
+
+input:hover{
+    background: white;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    border: 0px solid;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.container .inner_container{
+    width: 100%;
+    height: auto;
+    /* overflow: hidden; */
+}
+
+.container .inner_container .join_con{
+    width: 100%;
+    max-width: 1920px;
+    height: auto;
+    border: 0px solid;
+    margin: 0 auto;
+}
+
+.container .inner_container .join_con .background{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5em 0;
+    z-index: 1;
+}
+
+.container .inner_container .join_con .background video{
+    min-width: 1920px;
+    min-height: 1000px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+}
+
+.container .inner_container .join_con .background .section_con{
+    /* width: 28%; */
+    width: 550px;
+    /* max-width: 500px; */
+    margin: 0 auto;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.43);
+    font-size: 1rem;
+    border-radius: 15px;
+    transition: all 0.5s;
+}
+/* join_form  폼 시작 */
+
+.container .inner_container .join_con .background .section_con .join_form{
+    width: 68.2656%;
+    height: auto;
+    margin: 0 auto 3.3em;
+}
+
+.container .inner_container .join_con .background .section_con .join_form h2.title{
+    font-size: 4em;
+    color: white;
+    text-align: center;
+    line-height: 3em;
+}
+
+.container .inner_container .join_con .background .section_con .join_form .form_con{
+    width: 100%;
+    height: auto;
+}
+
+.container .inner_container .join_con .background .section_con .join_form .form_con .input_box1>ul>li input{
+    width: 100%;
+    height: 3em;
+    font-size: 1em;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 1.5625em;
+    padding-left: .63em;
+    box-sizing: border-box;
+}
+
+.container .inner_container .join_con .background .section_con .join_form .form_con .input_box1>ul>li input:hover{
+    background: white;
+}
+
+.container .inner_container .join_con .background .section_con .join_form .form_con .input_box1>ul>li:nth-child(2){
+    position: relative;
+}
+
+.container .inner_container .join_con .background .section_con .join_form .form_con .input_box1>ul>li:nth-child(2) .userNumber_Btn{
+    width: 4em;
+    height: 3em;
+    background: linear-gradient(140deg,#62b599e0,#5e98d2c0,#4d92c4e0);
+    position: absolute;
+    top: 3px;
+    right: -5em;
+    font-size: .8em;
+    color: white;
+    padding-right: .5em;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.container .inner_container .join_con .background .section_con .join_form .form_con .input_box1>ul>li span#pwOk{
+    font-size: .8em;
+    color: #fff;
+    font-weight: 200;
+}
+
+.container .inner_container .join_con .background .section_con .join_form .form_con .input_box2>ul>li input{
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.container .inner_container .join_con .background .section_con .join_form .form_con .input_box2>ul>li:first-child .agreement{
+    width: 47.2972%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 1.2em;
+    border-radius: 5px;
+    padding: .5em 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container .inner_container .join_con .background .section_con .join_form .form_con .input_box2>ul>li:first-child .agreement label{
+    display:block;
+    line-height: 2em;
+    color: rgb(110, 110, 110);
+    box-sizing: border-box;
+}
+
+.container .inner_container .join_con .background .section_con .join_form .form_con .input_box2>ul>li:first-child .agreement input{
+    width: 1.8em;
+    height: 1.8em;
+    margin: .3em 0;
+    cursor: pointer;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.container .inner_container .join_con .background .section_con .join_form .form_con .input_box2>ul>li .agreement_text{
+    width: 100%;
+    height: 5.3125em;
+    background-color: rgba(255, 255, 255, 0.6);
+    overflow-y:scroll;
+    border-radius: 5px;
+}
+
+.container .inner_container .join_con .background .section_con .join_form .form_con .input_box2>ul>li .agreement_text>p{
+    font-size: .625em;
+    color: #555;
+    padding: .625em;
+}
+
+.container .inner_container .join_con .background .section_con .join_form .form_con .input_box2>ul>li:last-child input{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background: linear-gradient(140deg,#62b599e0,#5e98d2c0,#4d92c4e0);
+    line-height: 2.5em;
+    text-align: center;
+    font-size: 1.6875em;
+    color: white;
+    border-radius: 10px;
+    margin: 1em 0;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width:990px) {
+    .container .inner_container .join_con .background .section_con{
+        width: 450px;
+        font-size: .8rem;
+    }
+}
+
+/*모바일*/
+@media only screen and (max-width:767px) {
+    .container .inner_container .join_con .background .section_con{
+        width: 400px;
+        font-size: .6rem;
+    }
+}

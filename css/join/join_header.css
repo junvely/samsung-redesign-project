@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+.header{
+    width: 100%;
+    height: auto;
+    border: 0px solid;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.header .inner_header{
+    width: 100%;
+    height: auto;
+}
+
+.header .inner_header .nav{
+    width: 100%;
+    max-width: 1920px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.header .inner_header .nav h1.logo{
+    width: 24.7395%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.header .inner_header .nav h1.logo img{
+    width: 100%;
+    height: auto;
+    display: block;
+}

@@ -1,0 +1,263 @@
+@charset "utf-8";
+@import url(service.css);
+
+.sub_header .sub_header_con .nav .info_menu{
+    width: 15%;
+    max-width: 900px;
+    height: auto;
+}
+
+/* container */
+.container{
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    transition: all .3s;
+}
+.container .inner_container{
+    width: 100%;
+    height: auto;
+}
+
+/* faq 배너 */
+.container .inner_container .faq_banner{
+    width: 100%;
+    height: auto;
+    background:url(../../img/faq_bannerBg.svg) no-repeat 50% /cover
+}
+.container .inner_container .faq_banner .banner_con{
+    width: 100%;
+    max-width: 1400px;
+    height: auto;
+    margin: 0 auto;
+    padding: 7% 10%;
+}
+.container .inner_container .faq_banner .banner_con>h1{
+    font-size: 9em;
+    font-weight: 900;
+    padding: 3% 0;
+    position: relative;
+    color: rgb(255, 136, 0);
+}
+.container .inner_container .faq_banner .banner_con>h1::before{
+    content: '';
+    display: block;
+    position: absolute;
+    left: -5%;
+    top: 32%;
+    transform: translate(-50%);
+    width: 30px;
+    height: 1.8em;
+    background-color: rgb(3, 167, 38);
+}
+.container .inner_container .faq_banner .banner_con>p{
+    font-size: 1.5em;
+    line-height: 1.5em;
+    letter-spacing: 4px;
+    color: rgb(228, 228, 228);
+}
+
+/* faq_nav메뉴*/
+.container .inner_container .faq_con{
+    width: 100%;
+    max-width: 1400px;
+    height: auto;
+    margin: 50px auto;
+}
+.container .inner_container .faq_con .faq_nav{
+    width: 100%;
+    height: auto;
+}
+.container .inner_container .faq_con .faq_nav_con{
+    width: 100%;
+    height: auto;
+}
+.container .inner_container .faq_con .faq_nav_con>ul{
+    display: flex;
+    justify-content: space-between;
+}
+.container .inner_container .faq_con .faq_nav_con>ul>li{
+    width: 14.29%;
+}
+.container .inner_container .faq_con .faq_nav_con>ul>li>a{
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    border-right: 1px solid #fff;
+    background-color: #001220;
+    color: #fff;
+    font-weight: 400;
+    font-size: .9em;
+}
+.container .inner_container .faq_con .faq_nav_con>ul>li.navOn{
+    border-top: 7px solid #111;
+    border-radius: 10px 10px 0 0;
+}
+.container .inner_container .faq_con .faq_nav_con>ul>li.navOn a{
+    color: #111;
+    font-size: 1.1em;
+    font-weight: 600;
+    background-color: #fff;
+}
+
+/* faq_nav - sub_menu */
+.container .inner_container .faq_con .faq_nav .sub_menu{
+    width: 100%;
+    height: auto;
+    padding: 2% 0;
+}
+.container .inner_container .faq_con .faq_nav .sub_menu>ul{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    transition: all .3s;
+}
+.container .inner_container .faq_con .faq_nav .sub_menu>ul>li>a{
+    font-weight: 500;
+}
+.container .inner_container .faq_con .faq_nav .sub_menu>ul>li.menuOn>a::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2.5px;
+    background-color: #111;
+}
+.container .inner_container .faq_list{
+    width: 100%;
+    height: auto;
+    border-top: 2.5px solid #111;
+}
+.container .inner_container .faq_list .list_con{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.container .inner_container .faq_list .list_con>ul>li .list_q{
+    width: 90%;
+    line-height: 60px;
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+}
+.container .inner_container .faq_list .list_con>ul>li .list_q::before{
+    content: '';
+    display: block;
+    width: 1.3em;
+    height: 1.3em;
+    background: url(../../img/faq_q.png) no-repeat 50% /cover;
+    position: absolute;
+    left: -3em;
+    top: 2em;
+    transform: translateY(-50%);
+}
+.container .inner_container .faq_list .list_con>ul>li .list_q::after{
+    content: '';
+    display: block;
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    top: 1.9em;
+    transform: translateY(-50%);
+    right: -2em;
+    background: url(../../img/plus.png) no-repeat 50% /cover;
+}
+.container .inner_container .faq_list .list_con>ul>li .list_q a{
+    display: block;
+}
+.container .inner_container .faq_list .list_con>ul>li .list_q a.categorize{
+    width: 10%;
+}
+.container .inner_container .faq_list .list_con>ul>li .list_q a.title{
+    width: 90%;
+}
+.container .inner_container .faq_list .list_con>ul>li .list_a{
+    background-color: rgb(245, 241, 241);
+    position: relative;
+    /* height: 0;
+    visibility: hidden; */
+}
+.container .inner_container .faq_list .list_con>ul>li .list_a::before{
+    content: '';
+    display: block;
+    width: 1.3em;
+    height: 1.3em;
+    background: url(../../img/faq_a.png) no-repeat 50% /cover;
+    position: absolute;
+    left: 1.4em;
+    top: 2.2em;
+    transform: translateY(-50%);
+}
+.container .inner_container .faq_list .list_con>ul>li .list_a>p{
+    width: 90%;
+    padding: 1% 0;
+    line-height: 40px;
+    margin: 0 auto;
+    font-size: 1em;
+    color: rgb(99, 99, 99);
+    position: relative;
+}
+.list_a.active{
+    height: 60px;
+    opacity: 1;
+    visibility:visible; 
+}
+/* 자바스크립트 active */
+.active{
+    /* display: block; */
+    height: 60px;
+    /* opacity: 1; */
+    visibility:visible; 
+}
+
+
+/* 태블릿 */
+
+@media only screen and (max-width:990px) {
+    .container{
+        font-size: .9rem;
+    }
+    .container .inner_container .faq_con{
+        width: 95%;
+    }
+    .container .inner_container .faq_con .faq_nav .sub_menu>ul{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .container .inner_container .faq_con .faq_nav .sub_menu>ul>li{
+        font-size: 16px;
+    }
+    .container .inner_container .faq_list .list_con>ul>li .list_q a.categorize{
+        width: 20%;
+    }
+    .container .inner_container .faq_list .list_con>ul>li .list_q a.title{
+        width: 80%;
+    }
+    .container .inner_container .faq_con .faq_list{
+        font-size: 16px;
+    }
+    .container .inner_container .faq_list .list_con>ul>li .list_q::before{
+        left: -1.5em;
+        top: 2em;
+    }
+    .container .inner_container .faq_list .list_con>ul>li .list_a::before{
+        left: 1.3em;
+        top: 1.7em;
+    }
+    
+}
+
+/* 모바일 */
+
+@media only screen and (max-width:767px) {
+    .container{
+        font-size: .7rem;
+    }
+    .container .inner_container .faq_list .list_con>ul>li .list_q::before{
+        left: -2em;
+        top: 2em;
+    }
+    .container .inner_container .faq_list .list_con>ul>li .list_a::before{
+        left: .3em;
+        top: 1.7em;
+    }
+}

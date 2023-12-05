@@ -1,0 +1,235 @@
+@charset "utf-8";
+
+input{
+    border: none;
+    border-radius: 5px;
+}
+
+input:hover{
+    background: white;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    border: 0px solid;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.container .inner_container{
+    width: 100%;
+    height: auto;
+    /* overflow: hidden; */
+}
+
+.container .inner_container .login_con{
+    width: 100%;
+    max-width: 1920px;
+    height: auto;
+    border: 0px solid;
+    margin: 0 auto;
+}
+
+.container .inner_container .login_con .background{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3.9em 0;
+    z-index: 1;
+}
+
+.container .inner_container .login_con .background video{
+    min-width: 1920px;
+    min-height: 1000px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+}
+
+.container .inner_container .login_con .background .section_con{
+    /* width: 28%; */
+    width: 500px;
+    /* max-width: 500px; */
+    margin: 0 auto;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.43);
+    font-size: 1rem;
+    border-radius: 15px;
+    transition: all 0.5s;
+    padding: 3rem 0;
+}
+
+/* login_form  폼 시작 */
+
+.container .inner_container .login_con .background .section_con .login_form{
+    width: 68.2656%;
+    height: auto;
+    margin: 0 auto;
+    border: 0px solid;
+    box-sizing: border-box;
+}
+
+.container .inner_container .login_con .background .section_con .login_form h2.title{
+    font-size: 3.5em;
+    color: white;
+    text-align: center;
+    line-height: 1em;
+    /* margin: 5rem 0; */
+    transition: all 0.5s;
+    padding-bottom: 1em;
+}
+
+.container .inner_container .login_con .background .section_con .login_form .form_con{
+    width: 100%;
+    height: auto;
+}
+
+.container .inner_container .login_con .background .section_con .login_form .form_con .input_box1>ul>li input{
+    width: 100%;
+    height: 2.6875em;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 2em;
+    font-size: 1em;
+    padding: .8em;
+    box-sizing: border-box;
+    transition: all 0.5s;
+}
+
+.container .inner_container .login_con .background .section_con .login_form .form_con .input_box1>ul>li input:hover{
+    background: white;
+}
+
+.container .inner_container .login_con .background .section_con .login_form .form_con .input_box1>ul>li input{
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.container .inner_container .login_con .background .section_con .login_form .form_con .input_box1>ul>li:nth-child(3) .saveId{
+    width: 42%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    padding: .5em .5em;
+    margin-bottom: 1.3em;
+}
+
+.container .inner_container .login_con .background .section_con .login_form .form_con .input_box1>ul>li:nth-child(3) .saveId label{
+    display:block;
+    color: #666;
+}
+
+.container .inner_container .login_con .background .section_con .login_form .form_con .input_box1>ul>li:nth-child(3) .saveId input{
+    width: 1.5625em;
+    height: 1.5625em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.container .inner_container .login_con .background .section_con .login_form .form_con .input_box1>ul>li:nth-child(4) input{
+    width: 100%;
+    line-height: 2em;
+    background: linear-gradient(140deg,#62b599e0,#5e98d2c0,#4d92c4e0);
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 0;
+}
+
+
+.container .inner_container .login_con .background .section_con .login_form .form_con .input_box1>ul>li:nth-child(5){
+    width: 100%;
+    line-height: 1em;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    font-size: .9em;
+    word-spacing: 10px;
+    transition: all 0.5s;
+}
+
+.container .inner_container .login_con .background .section_con .login_form .form_con .input_box1>ul>li:nth-child(5) a{
+    color: white;
+}
+
+.container .inner_container .login_con .background .section_con .login_form .form_con .input_box1>ul>li:nth-child(6){
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+.container .inner_container .login_con .background .section_con .login_form .form_con .input_box1>ul>li:nth-child(6) .button{
+    width: 47.29%;
+    min-width: 100px;
+    line-height: 2em;
+    padding: 2em 0;
+    transition: all 0.5s;
+}
+
+.container .inner_container .login_con .background .section_con .login_form .form_con .input_box1>ul>li:nth-child(6) .button input.btn{
+    width: 100%;
+    height: auto;
+    line-height: .9em;
+    background: linear-gradient(140deg,#62b599e0,#5e98d2c0,#4d92c4e0);
+    cursor: pointer;
+    color: white;
+    font-size: .9em;
+    margin-bottom: 0;
+    padding-left: 2em;
+    transition: all 0.5s;
+    position: relative;
+}
+
+.container .inner_container .login_con .background .section_con .login_form .form_con .input_box1>ul>li:nth-child(6) .button.btn1::before{
+    position: absolute;
+    content: '';
+    width: 1.5625em;
+    height: 1.5625em;
+    background: url(../../img/google_login.png) no-repeat 50% /cover;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 3%;
+    z-index: 999;
+    transition: all 0.5s;
+}
+
+.container .inner_container .login_con .background .section_con .login_form .form_con .input_box1>ul>li:nth-child(6) .button.btn2::before{
+    position: absolute;
+    content: '';
+    width: 1.4375em;
+    height: 1.4375em;
+    background: url(../../img/facebook_login.png) no-repeat 50% /cover;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 55%;
+    z-index: 999;
+    transition: all 0.5s;
+}
+
+/* 태블릿*/
+@media only screen and (max-width:990px) {
+    .container .inner_container .login_con .background .section_con{
+        width: 400px;
+        font-size: .8rem;
+    }
+}
+
+/*모바일*/
+@media only screen and (max-width:767px) {
+    .container .inner_container .login_con .background .section_con{
+        width: 350px;
+        font-size: .6rem;
+    }
+}

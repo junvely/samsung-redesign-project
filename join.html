@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+    <link rel="stylesheet" href="css/join/join.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="js/join.js" defer></script>
+</head>
+
+<body>
+    <div id="wrap">
+        <div class="header">
+            <div class="inner_header">
+                <div class="nav">
+                    <a href="./index.html"><h1 class="logo"><img src="img/join_logo2.png" alt="join_logo" title="홈으로"></h1></a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="inner_container">
+                <div class="join_con">
+                    <div class="background">
+                        <video src="img/Ink - 35508.mp4" width="1920" loop autoplay muted></video>
+                        <div class="section_con">
+                            <div class="join_form">
+                                <h2 class="title">
+                                    Sign up
+                                </h2>
+                                <div class="form_con">
+                                    <form action="joinOk.do" method="post" id="joinOkForm" name="joinOkForm">
+                                        <div class="input_box1">
+                                            <ul>
+                                                <li>
+                                                    <label for="userName"></label>
+                                                    <input type="text" name="userName" id="userName" class="userName" maxlength="10" placeholder=" 이름" onclick="clear">
+                                                </li>
+                                                <li>
+                                                    <label for="userNumber"></label>
+                                                    <input type="text" name="userNumber" id="userNumber" class="userNumber" maxlength="12" placeholder=" 전화번호 ('-' 생략 )">
+                                                    <input type="button" value="인증" name="userNumberOk" id="userNumberOk" class="userNumber_Btn">
+                                                </li>
+                                                <li>
+                                                    <label for="userId"></label>
+                                                    <input type="text" name="userId" id="userId" class="userId" maxlength="10" placeholder=" ID">
+                                                </li>
+                                                <li>
+                                                    <label for="userPw"></label>
+                                                    <input type="password" name="userPw" id="userPw" class="userPw" placeholder=" 비밀번호">
+                                                    <span id="pwOk"></span>
+                                                </li>
+                                                <li>
+                                                    <label for="userPwok"></label>
+                                                    <input type="password" name="userPwOk" id="userPwOk" class="userPwOk" placeholder=" 비밀번호 확인">
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="input_box2">
+                                            <ul>
+                                                <li>
+                                                    <div class="agreement">
+                                                        <label for="agreement">이용약관 동의</label>
+                                                        <input type="checkbox" name="agreement" id="agreement" value="동의">
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="agreement_text">
+                                                        <p>[개인정보의 수집 및 이용]<br>1.개인정보의 수집・이용 목적 하나의 회원증으로 모든 참여  
+                                                        서비스를 이용할 수 있는 책이음서비스는 회원 개인을 식별하고, 책이음서비스의 제공, 
+                                                        정보 전달 등의 목적으로 개인정보를 처리한다.2.수집하려는 개인정보의 항목 [가. 
+                                                        필수항목 : 이름, 휴대폰번호, 성별 3.개인정보의 수집・이용 목적 하나의 회원증으로 모든 참여  
+                                                        서비스를 이용할 수 있는 책이음서비스는 회원 개인을 식별하고, 책이음서비스의 제공, 
+                                                        정보 전달 등의 목적으로 개인정보를 처리한다.4.수집하려는 개인정보의 항목 [나. 
+                                                        필수항목 : 이름, 휴대폰번호, 성별. 1.개인정보의 수집・이용 목적 하나의 회원증으로 모든 참여  
+                                                        서비스를 이용할 수 있는 책이음서비스는 회원 개인을 식별하고, 책이음서비스의 제공, 
+                                                        정보 전달 등의 목적으로 개인정보를 처리한다.2.수집하려는 개인정보의 항목 [가. 
+                                                        필수항목 : 이름, 휴대폰번호, 성별 3.개인정보의 수집・이용 목적 하나의 회원증으로 모든 참여  
+                                                        서비스를 이용할 수 있는 책이음서비스는 회원 개인을 식별하고, 책이음서비스의 제공, 
+                                                        정보 전달 등의 목적으로 개인정보를 처리한다.4.수집하려는 개인정보의 항목 [나. 
+                                                        필수항목 : 이름, 휴대폰번호, 성별.</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <input type="button" value="Submit" id="joinOkBtn">
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="inner_footer">
+                <div class="footer_con">
+                    <div class="sitemap">
+                        <div class="sitemap_con">
+                            <div class="sitemap_sub sub1">
+                                <ul>
+                                    <li><a href="#">한국/한국어</a></li>
+                                    <li><a href="#">이메일 무단수집 거부</a></li>
+                                    <li><a href="#">아이디어 정책</a></li>
+                                    <li><a href="#">사이트맵</a></li>
+                                    <li><a href="#">개인정보 처리방침</a></li>
+                                    <li><a href="#">이용약관</a></li>
+                                </ul>
+                            </div>
+                            <div class="sitemap_sub sub2">
+                                <ul>
+                                    <li><a href="#"><img src="img/sns1.png" alt="sns1"></a></li>
+                                    <li><a href="#"><img src="img/sns2.png" alt="sns2"></a></li>
+                                    <li><a href="#"><img src="img/sns3.png" alt="sns3"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

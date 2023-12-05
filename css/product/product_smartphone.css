@@ -1,0 +1,544 @@
+@charset "utf-8";
+@import url(../product/product.css);
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+
+
+/* container */
+.container{
+    width: 100%;
+    height: auto;
+    background-attachment: fixed;
+}
+.container .inner_container{
+    width: 100%;
+    height: auto;
+}
+
+/* youtube_banner */
+.container .inner_container .youtube_banner{
+    width: 100%;
+    height: auto;
+}
+.container .inner_container .youtube_banner .youtube_con{
+    width: 100%;
+    height: auto;
+    padding-bottom: 60px;
+    background-color: #000;
+}
+.container .inner_container .youtube_banner .youtube_con iframe{
+    display: block;
+    border: 0;
+}
+
+/* product_smartphone */
+.container .inner_container .product_smartphone{
+    width: 100%;
+    height: auto;
+    background: linear-gradient(142deg, rgb(240, 161, 14) 8%, rgb(116, 58, 224) 46%, rgb(109, 26, 243) 100%);
+    padding: 10% 0;
+}
+.container .inner_container .product_smartphone .smartphone_con{
+    width: 90%;
+    /* max-width: 1400px; */
+    height: auto;
+    margin: 0 auto;
+    background-color: #f5f5f7;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px rgba(51, 51, 51, 0.671);
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con{
+    width: 100%;
+    height: auto;
+    background: url(../../img/smartphone_pen_bg.png) no-repeat 50% /cover;
+    padding: 10%;
+}
+
+/* best_product */
+.container .inner_container .product_smartphone .smartphone_con .product_con .best_product{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid; */
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .best_product .best_product_title{
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    transition: all .3s;
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .best_product .best_product_title>h1{
+    font-size: 7em;
+    font-weight: 1000;
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .best_product .best_product_title>p{
+    font-size: 1.4em;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 2em 1em ;
+    text-decoration-line:underline;
+    font-family: 'nanumsquare', sans-serif;
+
+}
+
+/* best_product_con */
+.container .inner_container .product_smartphone .smartphone_con .product_con .best_product .best_product_con{
+    width: 100%;
+    height: auto;
+    padding: 15% 0 5%;
+    font-size: 16px;
+    transition: all .3s;
+    /* border: 1px solid; */
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .best_product .best_product_con>p{
+    display: inline-block;
+    color: #fff;
+    background-color: #111;
+    padding: 3px 10px;
+    font-size: .9rem;
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .best_product .best_product_con>ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .best_product .best_product_con>ul>li{
+    width: 32%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(17, 17, 17, 0.315);
+    transition: all .3s;
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .best_product .best_product_con>ul>li:hover{
+    transform: scale(1.03);
+}
+
+.container .inner_container .product_smartphone .smartphone_con .product_con .best_product .best_product_con>ul>li .product{
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+    padding: 10% 0;
+    /* border: 1px solid; */
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .best_product .best_product_con>ul>li .product>span{
+    width: 100%;
+    color: rgb(240, 104, 14);
+    font-size: 1em;
+    font-weight: 900;
+    display: inline-block;
+    padding-bottom: 2%;
+    font-family: 'nanumsquare', sans-serif;
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .best_product .best_product_con>ul>li .product>p{
+    font-size: 2em;
+    font-weight: 900;
+    font-family: 'nanumsquare', sans-serif;
+    text-align: center;
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .best_product .best_product_con>ul>li .product .product_info{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .best_product .best_product_con>ul>li .product .product_info .color{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .best_product .best_product_con>ul>li .product .product_info .color>ul{
+    display: flex;
+    justify-content: space-between;
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .best_product .best_product_con>ul>li .product .product_info .color>ul>li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+    box-shadow: 0px 0px 5px rgb(167, 167, 167);
+}
+/* product 1 color */
+.container .inner_container .product_smartphone .smartphone_con .product_con .best_product .best_product_con>ul>li .product.product1>.product_info .color>ul>li:nth-child(1){
+    background-color: #211e16;
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .best_product .best_product_con>ul>li .product.product1>.product_info .color>ul>li:nth-child(2){
+    background-color: #e2deca;
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .best_product .best_product_con>ul>li .product.product1>.product_info .color>ul>li:nth-child(3){
+    background-color: #313d3d;
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .best_product .best_product_con>ul>li .product.product1>.product_info .color>ul>li:nth-child(4){
+    background-color: #beb1d1;
+}
+/* product 2 color */
+.container .inner_container .product_smartphone .smartphone_con .product_con .best_product .best_product_con>ul>li .product.product2>.product_info .color>ul>li:nth-child(1){
+    background-color: #f0c5be;
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .best_product .best_product_con>ul>li .product.product2>.product_info .color>ul>li:nth-child(2){
+    background-color: #a4a8c4;
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .best_product .best_product_con>ul>li .product.product2>.product_info .color>ul>li:nth-child(3){
+    background-color: #e9eae7;
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .best_product .best_product_con>ul>li .product.product2>.product_info .color>ul>li:nth-child(4){
+    background-color: #6c7073;
+}
+/* product 3 color */
+.container .inner_container .product_smartphone .smartphone_con .product_con .best_product .best_product_con>ul>li .product.product3>.product_info .color>ul>li:nth-child(1){
+    background-color: #bab7d4;
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .best_product .best_product_con>ul>li .product.product3>.product_info .color>ul>li:nth-child(2){
+    background-color: #494d35;
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .best_product .best_product_con>ul>li .product.product3>.product_info .color>ul>li:nth-child(3){
+    background-color: #ebece6;
+}
+
+.container .inner_container .product_smartphone .smartphone_con .product_con .best_product .best_product_con>ul>li .product .product_info .color>ul>li:last-child{
+    margin: 0;
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .best_product .best_product_con>ul>li .product .product_info>p{
+    width: 100%;
+    font-size: 1.6em;
+    font-weight: bold;
+    text-align: center;
+    padding: 5% 0;
+    color:rgb(35, 41, 46);
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .best_product .best_product_con>ul>li .product .product_info>a{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .best_product .best_product_con>ul>li .product .product_info>a{
+    width: auto;
+    font-size: .9em;
+    font-family: 'nanumsquare', sans-serif;
+    color: #fff;
+    text-align: center;
+    padding: 2% 4%;
+    display: block;
+    background-color: #222;
+    border-radius: 20px;
+    transition: all .5s;
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .best_product .best_product_con>ul>li .product .product_info>a:hover{
+    background: rgb(236,70,149);
+    background: linear-gradient(142deg, rgba(236,70,149,1) 7%, rgba(175,150,83,1) 51%, rgba(107,121,130,1) 82%, rgba(73,107,154,1) 100%);
+}
+
+
+/* search_product */
+.container .inner_container .product_smartphone .smartphone_con .product_con .search_product{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid; */
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .search_product .search_product_title{
+    width: 100%;
+    height: auto;
+    text-align: right;
+    font-size: 16px;
+    transition: all .3s;
+    /* border: 1px solid; */
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .search_product .search_product_title>h1{
+    font-size: 7em;
+    font-weight: 1000;
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .search_product .search_product_title>p{
+    font-size: 1.4em;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 2em 1em ;
+    text-decoration-line:underline;
+    font-family: 'nanumsquare', sans-serif;
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .search_product .search_box{
+    width: 100%;
+    height: auto;
+    position: sticky;
+    left: 0;
+    top: 80px;
+    z-index: 100;
+}
+
+/* 검색 박스 */
+.container .inner_container .product_smartphone .smartphone_con .product_con .search_product .search_box .search_box_con{
+    width: 100%;
+    height: 70px;
+    padding: 20px 0;
+    margin: 8% auto;
+    position: relative;
+    border-radius: 10px;
+    background: rgb(98,232,225);
+    background: linear-gradient(142deg, rgba(98,232,225,1) 7%, rgba(138,169,222,1) 31%, rgba(177,109,219,1) 62%, rgba(131,110,245,1) 90%);
+    box-shadow: 5px 5px 5px rgba(5, 5, 5, 0.233);
+    font-size: 16px;
+    transition: all .3s;
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .search_product .search_box .search_box_con>ul{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .search_product .search_box .search_box_con>ul>li{
+    width: 13%;
+    min-width: 50px;
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .search_product .search_box .search_box_con>ul>li:last-child{
+    width: 30px;
+    min-width: 30px;
+    height: auto;
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .search_product .search_box .search_box_con>ul>li:last-child input#searchBtn{
+    width: 100%;
+    height: 30px;
+    background: url(../../img/search_icon.png) no-repeat 50% /cover;
+    border: none;
+    cursor: pointer;
+}
+
+/* 유형 버튼 */
+.container .inner_container .product_smartphone .smartphone_con .product_con .search_product .search_box .search_box_con>ul>li>input.s_btn{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(245, 244, 244);
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 7px rgba(5, 5, 5, 0.445);
+    cursor: pointer;
+    position: relative;
+    font-size: 1em;
+    font-weight: 600;
+    color: rgb(46, 46, 46);
+    font-family: 'nanumsquare' , sans-serif;
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .search_product .search_box .search_box_con>ul>li:hover ul.btn_menu{
+    visibility: visible;
+    opacity: 1;
+    height: auto;
+}
+/* 유형 버튼 메뉴 - galaxy Z */
+.container .inner_container .product_smartphone .smartphone_con .product_con .search_product .search_box .search_box_con>ul>li>ul.btn_menu{
+    width: 100%;
+    margin: 0 auto;
+    padding: 13px;
+    background-color: #ebe8e871;
+    border-radius: 0 0 5px 5px ;
+    font-size: .9em;
+    line-height: 25px;
+    color: rgb(19, 19, 19);
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    transition: all .3s;
+    position: relative;
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .search_product .search_product_con .search_box>ul>li>ul.btn_menu>li{
+    width: 100%;
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .search_product .search_product_con .search_box>ul>li>ul.btnput,label{
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+
+
+
+/* search_product_con - 검색한 상품리스트*/
+.container .inner_container .product_smartphone .smartphone_con .product_con .search_product .search_product_con{
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    /* border: 1px solid; */
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .search_product .search_product_con>p{
+    display: inline-block;
+    color: #fff;
+    background-color: #111;
+    padding: 3px 10px;
+    font-size: .9em;
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .search_product .search_product_con>ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .search_product .search_product_con>ul>li{
+    width: 32%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(17, 17, 17, 0.315);
+    transition: all .3s;
+    margin-bottom: 5%;
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .search_product .search_product_con>ul>li:hover{
+    transform: scale(1.03);
+}
+
+.container .inner_container .product_smartphone .smartphone_con .product_con .search_product .search_product_con>ul>li .product{
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+    padding: 10% 0;
+    /* border: 1px solid; */
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .search_product .search_product_con>ul>li .product>span{
+    width: 100%;
+    color: rgb(240, 104, 14);
+    font-size: 1em;
+    font-weight: 900;
+    display: inline-block;
+    padding-bottom: 2%;
+    font-family: 'nanumsquare', sans-serif;
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .search_product .search_product_con>ul>li .product>p{
+    font-size: 2em;
+    font-weight: 900;
+    font-family: 'nanumsquare', sans-serif;
+    text-align: center;
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .search_product .search_product_con>ul>li .product .product_info{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .search_product .search_product_con>ul>li .product .product_info .color{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .search_product .search_product_con>ul>li .product .product_info .color>ul{
+    display: flex;
+    justify-content: space-between;
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .search_product .search_product_con>ul>li .product .product_info .color>ul>li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+    box-shadow: 0px 0px 5px rgb(167, 167, 167);
+}
+/* product 1 color */
+.container .inner_container .product_smartphone .smartphone_con .product_con .search_product .search_product_con>ul>li .product.product1>.product_info .color>ul>li:nth-child(1){
+    background-color: #211e16;
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .search_product .search_product_con>ul>li .product.product1>.product_info .color>ul>li:nth-child(2){
+    background-color: #e2deca;
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .search_product .search_product_con>ul>li .product.product1>.product_info .color>ul>li:nth-child(3){
+    background-color: #313d3d;
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .search_product .search_product_con>ul>li .product.product1>.product_info .color>ul>li:nth-child(4){
+    background-color: #beb1d1;
+}
+/* product 2 color */
+.container .inner_container .product_smartphone .smartphone_con .product_con .search_product .search_product_con>ul>li .product.product2>.product_info .color>ul>li:nth-child(1){
+    background-color: #f0c5be;
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .search_product .search_product_con>ul>li .product.product2>.product_info .color>ul>li:nth-child(2){
+    background-color: #a4a8c4;
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .search_product .search_product_con>ul>li .product.product2>.product_info .color>ul>li:nth-child(3){
+    background-color: #e9eae7;
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .search_product .search_product_con>ul>li .product.product2>.product_info .color>ul>li:nth-child(4){
+    background-color: #6c7073;
+}
+/* product 3 color */
+.container .inner_container .product_smartphone .smartphone_con .product_con .search_product .search_product_con>ul>li .product.product3>.product_info .color>ul>li:nth-child(1){
+    background-color: #bab7d4;
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .search_product .search_product_con>ul>li .product.product3>.product_info .color>ul>li:nth-child(2){
+    background-color: #494d35;
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .search_product .search_product_con>ul>li .product.product3>.product_info .color>ul>li:nth-child(3){
+    background-color: #ebece6;
+}
+
+.container .inner_container .product_smartphone .smartphone_con .product_con .search_product .search_product_con>ul>li .product .product_info .color>ul>li:last-child{
+    margin: 0;
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .search_product .search_product_con>ul>li .product .product_info>p{
+    width: 100%;
+    font-size: 1.6em;
+    font-weight: bold;
+    text-align: center;
+    padding: 5% 0;
+    color:rgb(35, 41, 46);
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .search_product .search_product_con>ul>li .product .product_info>a{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .search_product .search_product_con>ul>li .product .product_info>a{
+    width: auto;
+    font-size: .9em;
+    font-family: 'nanumsquare', sans-serif;
+    color: #fff;
+    text-align: center;
+    padding: 2% 4%;
+    display: block;
+    background-color: #222;
+    border-radius: 20px;
+    transition: all .5s;
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .search_product .search_product_con>ul>li .product .product_info>a:hover{
+    background: rgb(236,70,149);
+    background: linear-gradient(142deg, rgba(236,70,149,1) 7%, rgba(175,150,83,1) 51%, rgba(107,121,130,1) 82%, rgba(73,107,154,1) 100%);
+}
+
+/* search_product_con 상품들 클릭 전에 안보이게 */
+.container .inner_container .product_smartphone .smartphone_con .product_con .search_product .search_product_con>ul{
+    /* display: none; */
+}
+.container .inner_container .product_smartphone .smartphone_con .product_con .search_product .search_product_con>ul>li .product{
+    /* display: none; */
+}
+
+
+
+/* 태블릿 */
+@media only screen and (max-width:990px) {
+    .container .inner_container .product_smartphone .smartphone_con .product_con .best_product .best_product_title{
+        font-size: .7rem;
+    }
+    .container .inner_container .product_smartphone .smartphone_con .product_con .search_product .search_product_title{
+        font-size: .7rem;
+    }
+    .container .inner_container .product_smartphone .smartphone_con .product_con .search_product .search_box .search_box_con{
+        font-size: .8rem;
+    }
+}
+/* 모바일 */
+@media only screen and (max-width:767px) {
+    .container .inner_container .product_smartphone .smartphone_con .product_con .best_product .best_product_title{
+        font-size: .5rem;
+    }
+    .container .inner_container .product_smartphone .smartphone_con .product_con .search_product .search_product_title{
+        font-size: .5rem;
+    }
+    .container .inner_container .product_smartphone .smartphone_con .product_con .best_product .best_product_con>ul{
+        flex-wrap: wrap;
+    }
+    .container .inner_container .product_smartphone .smartphone_con .product_con .best_product .best_product_con>ul>li{
+        width: 90%;
+        margin: 5% auto;
+    }
+    .container .inner_container .product_smartphone .smartphone_con .product_con .search_product .search_product_con>ul{
+        flex-wrap: wrap;
+    }
+    .container .inner_container .product_smartphone .smartphone_con .product_con .search_product .search_product_con>ul>li{
+        width: 90%;
+        margin: 5% auto;
+    }
+}

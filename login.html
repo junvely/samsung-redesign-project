@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인</title>
+    <link rel="stylesheet" href="css/login/login.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="js/login.js" defer></script>
+</head>
+
+<body>
+    <div id="wrap">
+        <div class="header">
+            <div class="inner_header">
+                <div class="nav">
+                    <a href="index.html"><h1 class="logo"><img src="img/join_logo2.png" alt="join_logo" title="홈으로"></h1></a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="inner_container">
+                <div class="login_con">
+                    <div class="background">
+                        <video src="img/Ink - 35508.mp4" width="1920" loop autoplay muted></video>
+                        <div class="section_con">
+                            <div class="login_form">
+                                <h2 class="title">
+                                    LOGIN
+                                </h2>
+                                <div class="form_con">
+                                    <form action="loginOk.do" method="post" id="loginOkForm" name="loginOkForm">
+                                        <div class="input_box1">
+                                            <ul>
+                                                <li>
+                                                    <label for="userId"></label>
+                                                    <input type="text" name="userId" id="userId"  maxlength="10" placeholder=" ID 또는 전화번호">
+                                                </li>
+                                                <li>
+                                                    <label for="userPw"></label>
+                                                    <input type="password" name="userPw" id="userPw"  maxlength="10" placeholder=" 비밀번호">
+                                                </li>
+                                                <li>
+                                                    <div class="saveId">
+                                                        <label for="saveId">아이디 저장</label>
+                                                        <input type="checkbox" name="saveId" id="saveId" value="아이디저장">
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <input type="button" value="Log in" id="loginOkBtn">
+                                                </li>
+                                                <li>
+                                                    <a href="join.html">회원가입</a> / <a href="#">아이디찾기</a> / <a href="#">비밀번호찾기</a>
+                                                </li>
+                                                <li>
+                                                    <div class="button btn1">
+                                                        <input type="button" class="btn" value="google 로그인">
+                                                    </div>
+                                                    <div class="button btn2">
+                                                        <input type="button" class="btn" value="facebook 로그인">
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="inner_footer">
+                <div class="footer_con">
+                    <div class="sitemap">
+                        <div class="sitemap_con">
+                            <div class="sitemap_sub sub1">
+                                <ul>
+                                    <li><a href="#">한국/한국어</a></li>
+                                    <li><a href="#">이메일 무단수집 거부</a></li>
+                                    <li><a href="#">아이디어 정책</a></li>
+                                    <li><a href="#">사이트맵</a></li>
+                                    <li><a href="#">개인정보 처리방침</a></li>
+                                    <li><a href="#">이용약관</a></li>
+                                </ul>
+                            </div>
+                            <div class="sitemap_sub sub2">
+                                <ul>
+                                    <li><a href="#"><img src="img/sns1.png" alt="sns1"></a></li>
+                                    <li><a href="#"><img src="img/sns2.png" alt="sns2"></a></li>
+                                    <li><a href="#"><img src="img/sns3.png" alt="sns3"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
